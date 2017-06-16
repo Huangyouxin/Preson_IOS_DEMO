@@ -1,0 +1,8 @@
+1、将NTP文件拖进工程中
+2、将TPSocktNetTimeManege文件拖入
+3、导入TPSocktNetTimeManege.h
+4、在Appdelegate中声明TPSocktNetTimeManege
+   [TPSocktNetTimeManege instance]
+5、需要同步时间调用
+   [[TPSocktNetTimeManege instance] startSynchTime]
+6、需导入以下库CFNetwork、CoreGraphics

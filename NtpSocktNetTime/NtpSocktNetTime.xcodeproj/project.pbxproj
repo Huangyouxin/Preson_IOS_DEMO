@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF5A860C1EF3CA5A00987022 /* NtpSocktNetTime.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5A860B1EF3CA5A00987022 /* NtpSocktNetTime.m */; };
+		AF5A860D1EF3CA5A00987022 /* NtpSocktNetTime.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AF5A860A1EF3CA5A00987022 /* NtpSocktNetTime.h */; };
+		AF5A86251EF3CABE00987022 /* NetAssociation.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5A86171EF3CABE00987022 /* NetAssociation.m */; };
+		AF5A86261EF3CABE00987022 /* NetworkClock.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5A86191EF3CABE00987022 /* NetworkClock.m */; };
+		AF5A86271EF3CABE00987022 /* NSDate+NetworkClock.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5A861C1EF3CABE00987022 /* NSDate+NetworkClock.m */; };
+		AF5A86281EF3CABE00987022 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5A86211EF3CABE00987022 /* GCDAsyncUdpSocket.m */; };
+		AF5A86291EF3CABE00987022 /* TPSocktNetTimeManege.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5A86241EF3CABE00987022 /* TPSocktNetTimeManege.m */; };
+		AF5A862C1EF3CADD00987022 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5A862B1EF3CADD00987022 /* UIKit.framework */; };
+		AF5A862E1EF3CAE800987022 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5A862D1EF3CAE800987022 /* CoreGraphics.framework */; };
+		AF5A86301EF3CAF300987022 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5A862F1EF3CAF300987022 /* CFNetwork.framework */; };
+		AF5A86321EF3CAFB00987022 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5A86311EF3CAFB00987022 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AF5A86051EF3CA5A00987022 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				AF5A860D1EF3CA5A00987022 /* NtpSocktNetTime.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AF5A86071EF3CA5A00987022 /* libNtpSocktNetTime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNtpSocktNetTime.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5A860A1EF3CA5A00987022 /* NtpSocktNetTime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NtpSocktNetTime.h; sourceTree = "<group>"; };
+		AF5A860B1EF3CA5A00987022 /* NtpSocktNetTime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NtpSocktNetTime.m; sourceTree = "<group>"; };
+		AF5A86151EF3CABE00987022 /* ios-ntp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ios-ntp.h"; sourceTree = "<group>"; };
+		AF5A86161EF3CABE00987022 /* NetAssociation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetAssociation.h; sourceTree = "<group>"; };
+		AF5A86171EF3CABE00987022 /* NetAssociation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetAssociation.m; sourceTree = "<group>"; };
+		AF5A86181EF3CABE00987022 /* NetworkClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkClock.h; sourceTree = "<group>"; };
+		AF5A86191EF3CABE00987022 /* NetworkClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkClock.m; sourceTree = "<group>"; };
+		AF5A861A1EF3CABE00987022 /* Notes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Notes; sourceTree = "<group>"; };
+		AF5A861B1EF3CABE00987022 /* NSDate+NetworkClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+NetworkClock.h"; sourceTree = "<group>"; };
+		AF5A861C1EF3CABE00987022 /* NSDate+NetworkClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+NetworkClock.m"; sourceTree = "<group>"; };
+		AF5A861D1EF3CABE00987022 /* ntp-log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ntp-log.h"; sourceTree = "<group>"; };
+		AF5A861E1EF3CABE00987022 /* ntp.hosts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ntp.hosts; sourceTree = "<group>"; };
+		AF5A86201EF3CABE00987022 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		AF5A86211EF3CABE00987022 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		AF5A86221EF3CABE00987022 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		AF5A86231EF3CABE00987022 /* TPSocktNetTimeManege.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPSocktNetTimeManege.h; sourceTree = "<group>"; };
+		AF5A86241EF3CABE00987022 /* TPSocktNetTimeManege.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPSocktNetTimeManege.m; sourceTree = "<group>"; };
+		AF5A862B1EF3CADD00987022 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AF5A862D1EF3CAE800987022 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AF5A862F1EF3CAF300987022 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		AF5A86311EF3CAFB00987022 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF5A86041EF3CA5A00987022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5A86321EF3CAFB00987022 /* Foundation.framework in Frameworks */,
+				AF5A86301EF3CAF300987022 /* CFNetwork.framework in Frameworks */,
+				AF5A862E1EF3CAE800987022 /* CoreGraphics.framework in Frameworks */,
+				AF5A862C1EF3CADD00987022 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF5A85FE1EF3CA5A00987022 = {
+			isa = PBXGroup;
+			children = (
+				AF5A86091EF3CA5A00987022 /* NtpSocktNetTime */,
+				AF5A86081EF3CA5A00987022 /* Products */,
+				AF5A862A1EF3CADC00987022 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AF5A86081EF3CA5A00987022 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF5A86071EF3CA5A00987022 /* libNtpSocktNetTime.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF5A86091EF3CA5A00987022 /* NtpSocktNetTime */ = {
+			isa = PBXGroup;
+			children = (
+				AF5A86131EF3CABE00987022 /* NTP */,
+				AF5A86221EF3CABE00987022 /* README */,
+				AF5A86231EF3CABE00987022 /* TPSocktNetTimeManege.h */,
+				AF5A86241EF3CABE00987022 /* TPSocktNetTimeManege.m */,
+				AF5A860A1EF3CA5A00987022 /* NtpSocktNetTime.h */,
+				AF5A860B1EF3CA5A00987022 /* NtpSocktNetTime.m */,
+			);
+			path = NtpSocktNetTime;
+			sourceTree = "<group>";
+		};
+		AF5A86131EF3CABE00987022 /* NTP */ = {
+			isa = PBXGroup;
+			children = (
+				AF5A86141EF3CABE00987022 /* ios-ntp-lib */,
+				AF5A861F1EF3CABE00987022 /* network-udp */,
+			);
+			path = NTP;
+			sourceTree = "<group>";
+		};
+		AF5A86141EF3CABE00987022 /* ios-ntp-lib */ = {
+			isa = PBXGroup;
+			children = (
+				AF5A86151EF3CABE00987022 /* ios-ntp.h */,
+				AF5A86161EF3CABE00987022 /* NetAssociation.h */,
+				AF5A86171EF3CABE00987022 /* NetAssociation.m */,
+				AF5A86181EF3CABE00987022 /* NetworkClock.h */,
+				AF5A86191EF3CABE00987022 /* NetworkClock.m */,
+				AF5A861A1EF3CABE00987022 /* Notes */,
+				AF5A861B1EF3CABE00987022 /* NSDate+NetworkClock.h */,
+				AF5A861C1EF3CABE00987022 /* NSDate+NetworkClock.m */,
+				AF5A861D1EF3CABE00987022 /* ntp-log.h */,
+				AF5A861E1EF3CABE00987022 /* ntp.hosts */,
+			);
+			path = "ios-ntp-lib";
+			sourceTree = "<group>";
+		};
+		AF5A861F1EF3CABE00987022 /* network-udp */ = {
+			isa = PBXGroup;
+			children = (
+				AF5A86201EF3CABE00987022 /* GCDAsyncUdpSocket.h */,
+				AF5A86211EF3CABE00987022 /* GCDAsyncUdpSocket.m */,
+			);
+			path = "network-udp";
+			sourceTree = "<group>";
+		};
+		AF5A862A1EF3CADC00987022 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF5A86311EF3CAFB00987022 /* Foundation.framework */,
+				AF5A862F1EF3CAF300987022 /* CFNetwork.framework */,
+				AF5A862D1EF3CAE800987022 /* CoreGraphics.framework */,
+				AF5A862B1EF3CADD00987022 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF5A86061EF3CA5A00987022 /* NtpSocktNetTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF5A86101EF3CA5A00987022 /* Build configuration list for PBXNativeTarget "NtpSocktNetTime" */;
+			buildPhases = (
+				AF5A86031EF3CA5A00987022 /* Sources */,
+				AF5A86041EF3CA5A00987022 /* Frameworks */,
+				AF5A86051EF3CA5A00987022 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NtpSocktNetTime;
+			productName = NtpSocktNetTime;
+			productReference = AF5A86071EF3CA5A00987022 /* libNtpSocktNetTime.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF5A85FF1EF3CA5A00987022 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = taiping;
+				TargetAttributes = {
+					AF5A86061EF3CA5A00987022 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3X9Z29A4C9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AF5A86021EF3CA5A00987022 /* Build configuration list for PBXProject "NtpSocktNetTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AF5A85FE1EF3CA5A00987022;
+			productRefGroup = AF5A86081EF3CA5A00987022 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF5A86061EF3CA5A00987022 /* NtpSocktNetTime */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF5A86031EF3CA5A00987022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5A86271EF3CABE00987022 /* NSDate+NetworkClock.m in Sources */,
+				AF5A86281EF3CABE00987022 /* GCDAsyncUdpSocket.m in Sources */,
+				AF5A86291EF3CABE00987022 /* TPSocktNetTimeManege.m in Sources */,
+				AF5A860C1EF3CA5A00987022 /* NtpSocktNetTime.m in Sources */,
+				AF5A86251EF3CABE00987022 /* NetAssociation.m in Sources */,
+				AF5A86261EF3CABE00987022 /* NetworkClock.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AF5A860E1EF3CA5A00987022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF5A860F1EF3CA5A00987022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF5A86111EF3CA5A00987022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3X9Z29A4C9;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AF5A86121EF3CA5A00987022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3X9Z29A4C9;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF5A86021EF3CA5A00987022 /* Build configuration list for PBXProject "NtpSocktNetTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5A860E1EF3CA5A00987022 /* Debug */,
+				AF5A860F1EF3CA5A00987022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF5A86101EF3CA5A00987022 /* Build configuration list for PBXNativeTarget "NtpSocktNetTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5A86111EF3CA5A00987022 /* Debug */,
+				AF5A86121EF3CA5A00987022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF5A85FF1EF3CA5A00987022 /* Project object */;
+}
